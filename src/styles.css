@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(245,242,240);
+    margin: 0px;
+}
+/* .container{
+    width:100%;
+} */
+.lady{
+    width: 40%;
+    margin-left: 0px;
+    margin-top: -400px;
+}
+   
+section>img{
+    margin-left: 550px;
+   top: -700px;
+}
+.creative-font{
+    width:535px;
+     /* margin-right: 100px; */
+}
+.ingredient{
+    display: inline-block;
+    color:rgb(130,130,130);
+    font-size: 30px;
+    /* position: relative; */
+    top: -700px;
+}
+ 
+.section-1{
+    height: 600px;
+}
+.icon-links{
+    width: 17px;
+    margin-bottom:32px;
+    cursor:pointer;
+}
+.icon-container{
+    position:relative;
+    top:-250px;
+    left:1200px;
+    display: flex;
+    flex-direction: column;
+}
+.package{
+    padding:15px 30px;
+    color:#fff;
+    font-family: sans-serif;
+    background-color: rgb(51,51,51);
+    border:0px;
+    position: absolute;
+    right: 13px;
+    top: 360px;
+    cursor:pointer
+}
+.ul-items{
+    font-family: sans-serif;
+    margin-bottom: 35px;
+    color:rgb(130,130,130);
+    cursor:pointer
+}
+.ul-items:hover{
+    color:rgb(75,75,74)
+}
+.unorder-container{
+    display: inline-block;
+    left: 500px;
+    top: -350px;
+    position: relative;
+   
+}
+.content-container{
+    display: inline-block;
+    margin-left: 550px;
+    position: relative;
+    top: -400px;
+}
+.quotes{
+    width: 30px;
+}
+.dance{
+    width: 370px;
+    height: 205px;
+}
+.down-arrow{
+    width: 90px;
+    height: 150px;
+    position: relative;
+    top:50px;
+    left:20px
+}
+i{
+    visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+    .nav-items{
+        display: none;
+    }
+    i.fas.fa-bars {
+        display: block;
+        visibility: visible;
+      margin-left: 200px;
+       margin-top: 30px;
+        font-size: 25px;
+    }
+    .content-container{
+        margin-right: 50px;
+        top: 0px; 
+    }
+    .logo{
+        margin-left: 150px;
+    }
+    .creative-font{
+        width:250px;
+        position: absolute;
+    }
+    .ingredient{
+        margin-top: 240px;
+        position: absolute;
+       margin-left: 100px;
+    }
+    .quotes{
+        width: 10px;
+        margin-left: 0px;
+    }
+    .dance{
+        margin-left: 0em;
+    }
+    .down-arrow{
+        width: 50px;
+        height: 100px;
+        position: relative;
+        top:-20px;
+    }
+    .social-icons{
+        margin-top: 500px;
+ margin-left: 200px;
+    }
+    .package{
+        padding: 10px 20px;
+        left: 133px;
+        right: 160px;
+        top: 400px;
+    }
+    .lady{
+       height: 500px;
+    }
+  .content-container{
+    position: relative;
+  }
+}
